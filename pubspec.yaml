@@ -1,0 +1,33 @@
+name: laboratorio10av
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+assets:
+  - assets/images/logo.png
+
+fonts:
+  - family: Lato
+    fonts:
+      - asset: assets/fonts/Lato-Bold.ttf
+  - family: OpenSans
+    fonts:
+      - asset: assets/fonts/OpenSans-VariableFont_wdth,wght.ttf
+  - family: Ubuntu
+    fonts:
+      - asset: assets/fonts/Ubuntu-Bold.ttf
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
